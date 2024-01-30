@@ -34,4 +34,4 @@ jobs:
           git commit -m "Update JSON file via GitHub Action"
           git push
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ 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 }}
