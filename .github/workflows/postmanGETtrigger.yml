@@ -1,0 +1,37 @@
+name: Update JSON File
+
+on:
+  workflow_run:
+    workflows: ["Run Postman Collection"]
+    types:
+      - completed
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Run Postman Collection
+        run: |
+          # Add your Postman GET request command here
+          # For example:
+          # curl -X GET https://script.google.com/macros/s/AKfycbwojUldhUNdBekWKEeBLRamHguIyhkgsMeqE_5Mziby2BlpwzMoHHDCz4e1KF81RlfWmA/exec -o data.json
+
+      - name: Update JSON File
+        run: |
+          # Add your script to update the JSON file
+          # For example:
+          # echo '{"newData": "updated content"}' > data.json
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data.json
+          git commit -m "Update JSON file via GitHub Action"
+          git push
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
