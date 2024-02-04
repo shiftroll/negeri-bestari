@@ -3211,6 +3211,15 @@ blockquote {
   position: relative;
 }
 
+.location-div-left {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: flex-start;
+  align-self: left;
+  display: flex;
+  position: relative;
+}
+
 .comma {
   width: 100%;
   color: #8d8d8d;
