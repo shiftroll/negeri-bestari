@@ -1,0 +1,12 @@
+---
+title: Pulau Geleang
+slug: pulau-geleang
+f_location: cms/location/karimun-jawa.md
+updated-on: '2023-10-01T12:42:50.754Z'
+created-on: '2023-10-01T12:42:50.754Z'
+published-on: '2024-01-21T11:33:59.165Z'
+layout: '[initiatives].html'
+tags: initiatives
+---
+
+
