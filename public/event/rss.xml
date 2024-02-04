@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Events </title>
+    <description>Events  Feed</description>
+    <link></link>
+    <pubDate>Sat, 03 Feb 2024 19:19:40 GMT</pubDate>
+    <atom:link href="/event/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Vitae Est</title>
+            
+            <link>/event/vitae-est/</link>
+            <pubDate>Sat, 03 Feb 2024 19:19:40 GMT</pubDate>
+            <guid>/event/vitae-est/</guid>
+            
+            <content type="html"></content>
+            
+        </item>
+        <item>
+            <title>Magni</title>
+            
+            <link>/event/magni/</link>
+            <pubDate>Sat, 03 Feb 2024 19:19:40 GMT</pubDate>
+            <guid>/event/magni/</guid>
+            
+            <content type="html"></content>
+            
+        </item>
+        <item>
+            <title>Ducimus Tenetur Occaecati Similique</title>
+            
+            <link>/event/ducimus-tenetur-occaecati-similique/</link>
+            <pubDate>Sat, 03 Feb 2024 19:19:40 GMT</pubDate>
+            <guid>/event/ducimus-tenetur-occaecati-similique/</guid>
+            
+            <content type="html"></content>
+            
+        </item>
+        <item>
+            <title>Commodi Ab Optio</title>
+            
+            <link>/event/commodi-ab-optio/</link>
+            <pubDate>Sat, 03 Feb 2024 19:19:40 GMT</pubDate>
+            <guid>/event/commodi-ab-optio/</guid>
+            
+            <content type="html"></content>
+            
+        </item>
+        <item>
+            <title>Aliquid</title>
+            
+            <link>/event/aliquid/</link>
+            <pubDate>Sat, 03 Feb 2024 19:19:40 GMT</pubDate>
+            <guid>/event/aliquid/</guid>
+            
+            <content type="html"></content>
+            
+        </item>
+  </channel>
+</rss>
