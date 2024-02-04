@@ -9518,6 +9518,15 @@ blockquote {
   overflow: visible;
 }
 
+.location-div-left {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: flex-start;
+  align-self: flex-start;
+  display: flex;
+  position: relative;
+}
+
 @media screen and (min-width: 1280px) {
   .page-main {
     height: auto;
@@ -11384,6 +11393,12 @@ blockquote {
     grid-template-columns: 320px 320px;
     grid-auto-flow: row;
   }
+
+  .location-div-left {
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -12689,6 +12704,12 @@ blockquote {
     padding: 30px 0 40px;
     overflow: visible;
     transform: translate(0, -2px)scale(.78);
+  }
+
+  .location-div-left {
+    justify-content: center;
+    align-self: flex-start;
+    font-size: 1.5em;
   }
 }
 
@@ -14271,6 +14292,11 @@ blockquote {
     position: relative;
     overflow: visible;
     transform: none;
+  }
+
+  .location-div-left {
+    justify-content: center;
+    align-self: center;
   }
 }
 

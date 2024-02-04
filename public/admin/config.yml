@@ -1533,7 +1533,7 @@ collections:
         multiple: true
       - hint: ''
         name: f_category
-        label: Category
+        label: Cluster
         widget: relation
         required: false
         collection: partner_cluster
@@ -1571,8 +1571,23 @@ collections:
           - title
         multiple: false
       - hint: ''
-        name: f_service-1
-        label: Service 1
+        name: f_established-in
+        label: Established In
+        widget: string
+        required: false
+      - hint: ''
+        name: f_founder
+        label: Founder
+        widget: string
+        required: false
+      - hint: ''
+        name: f_director-head-2
+        label: Director/Head
+        widget: string
+        required: false
+      - hint: ''
+        name: f_members
+        label: Members
         widget: string
         required: false
       - hint: ''
@@ -1641,6 +1656,16 @@ collections:
         name: f_instagram-embed-3
         label: Instagram Embed 3
         widget: string
+        required: false
+      - hint: ''
+        name: f_issue-involved-in
+        label: Issue involved in
+        widget: string
+        required: false
+      - hint: ''
+        name: f_about-partner-2
+        label: About Partner
+        widget: text
         required: false
       - label: Tags
         widget: hidden
