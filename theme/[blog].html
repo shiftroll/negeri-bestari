@@ -92,7 +92,7 @@
               </div>
               {%- assign authorOfBlog = f_author-publisher | resolveReference -%}<div class="publisher-name article">{{ authorOfBlog.data.title }}</div>
             </div>
-            <div class="testimonial-left"><img alt="{{ f_main-image.alt }}" loading="lazy" src="{{ f_main-image.url }}" class="testimonial-image-four"></div>
+            <div class="testimonial-left"><img alt="{{ images.0.alt | trim | escape }}" loading="lazy" src="{{ images.0.url }}" class="testimonial-image-four"></div>
           </div>
         </div>
         <div class="body-text-div">

@@ -142,9 +142,9 @@ a { color: inherit; }
                                 <div data-hover="false" data-delay="0" fs-selectcustom-element="dropdown" fs-selectcustom-hideinitial="true" fs-combobox-element="dropdown" class="dropdown-2 w-dropdown">
                                   <div class="dropdown-toggle-5 w-dropdown-toggle">
                                     <div class="icon w-icon-dropdown-toggle"></div><img src="{{ images.4b851b03.url }}" alt="{{ images.4b851b03.alt | trim | escape }}" width="56.5" class="image-6">
-                                    <div fs-cmsfilter-element="label" fs-selectcustom-element="label" fs-combobox-element="text-input" class="text-block-80">{{ texts.610979ae }}</div>
+                                    <div fs-cmsfilter-element="label-1" fs-selectcustom-element="label-1" fs-combobox-element="text-input-1" class="text-block-80">{{ texts.610979ae }}</div>
                                   </div>
-                                  <nav class="dropdown-list-2 w-dropdown-list"><select id="Provinces-4" name="Provinces-4" data-name="Provinces 4" fs-cmsfilter-field="province" fs-combobox-element="select" class="filter_select w-select">
+                                  <nav class="dropdown-list-2 w-dropdown-list"><select id="Provinces-5" name="Provinces" data-name="Provinces" fs-cmsfilter-field="province" fs-combobox-element="select-1" class="filter_select w-select">
                                       <option value="">{{ texts.610979ae }}</option>
                                       <option value="Aceh">{{ texts.1f0c65 }}</option>
                                       <option value="Sumatera Utara">{{ texts.-58a1f079 }}</option>
@@ -182,6 +182,27 @@ a { color: inherit; }
                                       <option value="Papua">{{ texts.495234b }}</option>
                                     </select>
                                     <a href="{{ links.23 }}" class="province-dropdown-link w-dropdown-link">{{ texts.24241a }}</a>
+                                  </nav>
+                                </div>
+                                <a fs-cmsfilter-reset="year" fs-cmsfilter-element="reset" href="{{ links.23 }}" class="filter_reset">{{ texts.3e2c62d }}</a>
+                              </div>
+                              <div class="filter_block-header cluster">
+                                <div data-hover="false" data-delay="0" class="dropdown-cluster w-dropdown">
+                                  <div class="dropdown-toggle-cluster w-dropdown-toggle">
+                                    <div class="icon w-icon-dropdown-toggle"></div>
+                                    <div class="text-block-80">{{ texts.-549e6e68 }}</div>
+                                  </div>
+                                  <nav class="dropdown-list-cluster w-dropdown-list"><select id="Cluster" name="Cluster" data-name="Cluster" class="filter_select w-select">
+                                      <option value="All Clusters">{{ texts.-549e6e68 }}</option>
+                                      <option value="Health &amp; Environment">{{ texts.7b949655 }}</option>
+                                      <option value="Law, Politics, and State Resiliency">{{ texts.-3b82698 }}</option>
+                                      <option value="Technology">{{ texts.12b9612c }}</option>
+                                      <option value="Economics and Social Welfare">{{ texts.4aedf0a4 }}</option>
+                                    </select>
+                                    <a href="{{ links.23 }}" fs-mirrorclick-element="trigger-1" class="province-dropdown-link w-dropdown-link">{{ texts.-760d87a }}</a>
+                                    <a href="{{ links.23 }}" fs-mirrorclick-element="trigger-2" class="province-dropdown-link w-dropdown-link">{{ texts.-3b82698 }}</a>
+                                    <a href="{{ links.23 }}" fs-mirrorclick-element="trigger-3" class="province-dropdown-link w-dropdown-link">{{ texts.12b9612c }}</a>
+                                    <a href="{{ links.23 }}" fs-mirrorclick-element="trigger-4" class="province-dropdown-link w-dropdown-link">{{ texts.4aedf0a4 }}</a>
                                   </nav>
                                 </div>
                                 <a fs-cmsfilter-reset="year" fs-cmsfilter-element="reset" href="{{ links.23 }}" class="filter_reset">{{ texts.3e2c62d }}</a>
@@ -341,16 +362,16 @@ a { color: inherit; }
                       </div>
                       <div data-current="Health and Environment" data-easing="ease" data-duration-in="300" data-duration-out="100" class="tabs w-tabs">
                         <div class="tabs-menu w-tab-menu">
-                          <a data-w-tab="Health and Environment" class="tab-link w-inline-block w-tab-link w--current">
+                          <a data-w-tab="Health and Environment" fs-mirrorclick-element="target-1" class="tab-link w-inline-block w-tab-link w--current">
                             <div class="tab-by-activity">{{ texts.-760d87a }}</div>
                           </a>
-                          <a data-w-tab="Law, Politics, and State Resiliency" class="tab-link w-inline-block w-tab-link">
+                          <a data-w-tab="Law, Politics, and State Resiliency" fs-mirrorclick-element="target-2" class="tab-link w-inline-block w-tab-link">
                             <div class="tab-by-activity">{{ texts.-3b82698 }}</div>
                           </a>
-                          <a data-w-tab="Technology" class="tab-link w-inline-block w-tab-link">
+                          <a data-w-tab="Technology" fs-mirrorclick-element="target-3" class="tab-link w-inline-block w-tab-link">
                             <div class="tab-by-activity">{{ texts.12b9612c }}</div>
                           </a>
-                          <a data-w-tab="Economics and Social Welfare" class="tab-link w-inline-block w-tab-link">
+                          <a data-w-tab="Economics and Social Welfare" fs-mirrorclick-element="target-4" class="tab-link w-inline-block w-tab-link">
                             <div class="tab-by-activity">{{ texts.4aedf0a4 }}</div>
                           </a>
                         </div>
@@ -368,7 +389,7 @@ a { color: inherit; }
                                         <div class="residence-title white">{{ item.data.title }}</div>
                                         <div class="chip-div">
                                           <div class="chip-tag">
-                                            {%- assign partner-clusterOfPartners = item.data.f_category | resolveReference -%}<div class="developer-name white">{{ partner-clusterOfPartners.data.title }}</div>
+                                            {%- assign partner-clusterOfPartners = item.data.f_category | resolveReference -%}<div fs-cmsfilter-field="cluster" class="developer-name white">{{ partner-clusterOfPartners.data.title }}</div>
                                           </div>
                                           {%- if item.data.f_service-2 -%}<div class="chip-tag">
                                             <div class="developer-name white">{{ item.data.f_service-2 }}</div>
@@ -401,7 +422,7 @@ a { color: inherit; }
                             </div>
                           </div>
                           <div data-w-tab="Law, Politics, and State Resiliency" class="w-tab-pane">
-                            {%- assign collection = collections.partners | filter: "f_category,eq,cms/partner-cluster/economics-and-social-welfare", "ALL", page.inputPath | sort: "-created-on" -%}<div class="collection-list-wrapper-12 w-dyn-list">
+                            {%- assign collection = collections.partners | filter: "f_category,eq,cms/partner-cluster/law-politics-and-state-resiliency", "ALL", page.inputPath | sort: "-created-on" -%}<div class="collection-list-wrapper-12 w-dyn-list">
                               {%- unless collection.length == 0 -%}<div fs-cmsfilter-element="list" role="list" class="explore-grid-new w-dyn-items">
                                 {%- for item in collection -%}<div id="w-node-d43a923e-f91e-4b21-8d75-24c678e943d9-3f9725d0" data-w-id="d43a923e-f91e-4b21-8d75-24c678e943d9" role="listitem" class="explore-item partner w-dyn-item">
                                   <div class="explore-tile">

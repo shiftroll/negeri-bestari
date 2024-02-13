@@ -4,13 +4,13 @@
     <title>Partner Types </title>
     <description>Partner Types  Feed</description>
     <link></link>
-    <pubDate>Sun, 04 Feb 2024 12:03:12 GMT</pubDate>
+    <pubDate>Tue, 13 Feb 2024 11:22:02 GMT</pubDate>
     <atom:link href="/partner-type/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title>NGO</title>
             
             <link>/partner-type/ngo/</link>
-            <pubDate>Sun, 04 Feb 2024 12:03:12 GMT</pubDate>
+            <pubDate>Tue, 13 Feb 2024 11:22:02 GMT</pubDate>
             <guid>/partner-type/ngo/</guid>
             
             <content type="html"></content>
@@ -20,7 +20,7 @@
             <title>Government</title>
             
             <link>/partner-type/government/</link>
-            <pubDate>Sun, 04 Feb 2024 12:03:12 GMT</pubDate>
+            <pubDate>Tue, 13 Feb 2024 11:22:02 GMT</pubDate>
             <guid>/partner-type/government/</guid>
             
             <content type="html"></content>
@@ -30,7 +30,7 @@
             <title>Community</title>
             
             <link>/partner-type/community/</link>
-            <pubDate>Sun, 04 Feb 2024 12:03:12 GMT</pubDate>
+            <pubDate>Tue, 13 Feb 2024 11:22:02 GMT</pubDate>
             <guid>/partner-type/community/</guid>
             
             <content type="html"></content>

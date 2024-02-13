@@ -2239,14 +2239,6 @@ collections:
             label: Text
             name: '-718e8b5f'
             widget: string
-          - hint: 'Original text: Partner Name, key: fe91323'
-            label: Text
-            name: fe91323
-            widget: string
-          - hint: 'Original text: Cluster, key: -68cc5626'
-            label: Text
-            name: '-68cc5626'
-            widget: string
           - hint: 'Original text: Profile, key: 50c72189'
             label: Text
             name: 50c72189
@@ -2271,54 +2263,18 @@ collections:
             label: Text
             name: 752a03d5
             widget: string
+          - hint: 'Original text: Cluster, key: -68cc5626'
+            label: Text
+            name: '-68cc5626'
+            widget: string
           - hint: 'Original text: Issue involved in, key: -77714449'
             label: Text
             name: '-77714449'
-            widget: string
-          - hint: 'Original text: established-date, key: 63395cc3'
-            label: Text
-            name: 63395cc3
-            widget: string
-          - hint: 'Original text: founder-name, key: 32eac5e9'
-            label: Text
-            name: 32eac5e9
-            widget: string
-          - hint: 'Original text: director-name, key: 1f65a02c'
-            label: Text
-            name: 1f65a02c
-            widget: string
-          - hint: 'Original text: 30 members, key: -53d541aa'
-            label: Text
-            name: '-53d541aa'
-            widget: string
-          - hint: 'Original text: location-name, key: -6dd97a5d'
-            label: Text
-            name: '-6dd97a5d'
-            widget: string
-          - hint: 'Original text: cluster-type, key: -3f6c34d3'
-            label: Text
-            name: '-3f6c34d3'
-            widget: string
-          - hint: 'Original text: issue-1, key: 7d36dc3d'
-            label: Text
-            name: 7d36dc3d
             widget: string
           - hint: 'Original text: About, key: 3c2336d'
             label: Text
             name: 3c2336d
             widget: string
-          - hint: >-
-              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum., key: 1e922a7c
-            label: Text
-            name: 1e922a7c
-            widget: text
           - hint: 'Original text: Past Projects, key: 58269cc8'
             label: Text
             name: 58269cc8
@@ -2495,9 +2451,13 @@ collections:
             label: Text
             name: 1410cedc
             widget: string
-          - hint: 'Original text: Health and Environment, key: -760d87a'
+          - hint: 'Original text: All Clusters, key: -549e6e68'
             label: Text
-            name: '-760d87a'
+            name: '-549e6e68'
+            widget: string
+          - hint: 'Original text: Health & Environment, key: 7b949655'
+            label: Text
+            name: 7b949655
             widget: string
           - hint: 'Original text: Law, Politics, and State Resiliency, key: -3b82698'
             label: Text
@@ -2510,6 +2470,10 @@ collections:
           - hint: 'Original text: Economics and Social Welfare, key: 4aedf0a4'
             label: Text
             name: 4aedf0a4
+            widget: string
+          - hint: 'Original text: Health and Environment, key: -760d87a'
+            label: Text
+            name: '-760d87a'
             widget: string
           - hint: >-
               Original text: Oops. There isn't any partner for this cluster
@@ -2603,22 +2567,6 @@ collections:
               key: -4b730c7c
             label: Link
             name: '-4b730c7c'
-            widget: string
-          - hint: >-
-              Original link: https://negeribestari.webflow.io/partners, key:
-              -45bc5b2d
-            label: Link
-            name: '-45bc5b2d'
-            widget: string
-          - hint: >-
-              Original link: https://negeribestari.webflow.io/initiatives, key:
-              -2a5d6541
-            label: Link
-            name: '-2a5d6541'
-            widget: string
-          - hint: 'Original link: , key: 0'
-            label: Link
-            name: '0'
             widget: string
       - label: Images
         name: images
@@ -2889,7 +2837,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 38caf0a
+            name: '0'
             widget: object
             fields:
               - name: url
@@ -2902,7 +2850,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '0'
+            name: 38caf0a
             widget: object
             fields:
               - name: url
